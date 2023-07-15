@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react";
+
 import "@src/css/global.css";
 import "@src/css/utilities.css";
 
@@ -46,6 +48,7 @@ export default function Layout({ children }: Props) {
           </Profile>
         </header>
         {children}
+        <Analytics />
       </body>
     </html>
   );
