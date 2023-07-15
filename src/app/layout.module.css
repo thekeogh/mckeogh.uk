@@ -1,0 +1,24 @@
+.header {
+  width: var(--dimension-width-header);
+  min-height: 100vh;
+  padding: var(--dimension-spacing-medium) var(--dimension-spacing-huge);
+  background: var(--color-blue-80);
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 1000;
+}
+
+/**
+ * Responsive.
+ * 
+ * @name Tablet landscape
+ */
+@media (max-width: 1023px) {
+  .header {
+    position: static;
+  }
+}

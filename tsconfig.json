@@ -14,13 +14,23 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "app-env.d.ts",
+      "src/**/*.d.ts"
+    ],
     "plugins": [
       {
         "name": "next"
       }
     ],
     "paths": {
-      "@src/*": ["./src/*"]
+      "@src/*": ["./src/*"],
+      "@core": ["./src/core/index.ts"],
+      "@components": ["./src/components/index.ts"],
+      "@utils": ["./src/utils/index.ts"],
+      "@sections": ["./src/sections/index.ts"],
+      "@public/*": ["./public/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
