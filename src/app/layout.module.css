@@ -11,6 +11,25 @@
   position: fixed;
   z-index: 1000;
 }
+.button {
+  margin: var(--dimension-spacing-medium);
+  padding: var(--dimension-spacing-small);
+  background: var(--color-green-100);
+  color: #fff;
+  text-align: center;
+  text-decoration: none !important;
+  font-weight: var(--font-weight-bold);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: block;
+  opacity: .9;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 1;
+}
 
 /**
  * Responsive.
@@ -20,5 +39,8 @@
 @media (max-width: 1023px) {
   .header {
     position: static;
+  }
+  .button {
+    display: none
   }
 }

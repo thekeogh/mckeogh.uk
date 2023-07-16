@@ -75,4 +75,7 @@
   .intro h1 {
     font-size: 57px
   }
+  .social {
+    flex-direction: column;
+  }
 }

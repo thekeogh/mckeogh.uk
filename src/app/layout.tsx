@@ -46,6 +46,9 @@ export default function Layout({ children }: Props) {
           <Profile title="Looking">
             Yes, open to opportunities
           </Profile>
+          <a href="/steve-mckeogh-cv.pdf" target="_blank" className={style.button}>
+            Download CV
+          </a>
         </header>
         {children}
         <Analytics />

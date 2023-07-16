@@ -19,6 +19,7 @@ export function Intro() {
         <ul className={style.social}>
           <li><a href="https://www.linkedin.com/in/thekeogh/" target="_blank" className={style.link}>LinkedIn</a></li>
           <li><a href="https://github.com/thekeogh" target="_blank" className={style.link}>GitHub</a></li>
+          <li><a href="/steve-mckeogh-cv.pdf" target="_blank" className={style.link}>Download CV</a></li>
         </ul>
       </div>
       <div className={style.photo} />
