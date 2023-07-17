@@ -6,6 +6,10 @@
     http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://mckeogh.uk/</loc>
-  <lastmod>2023-07-12T15:29:01+00:00</lastmod>
+  <lastmod>2023-07-17T10:01:01+00:00</lastmod>
+</url>
+<url>
+  <loc>https://mckeogh.uk/download</loc>
+  <lastmod>2023-07-17T10:01:01+00:00</lastmod>
 </url>
 </urlset>
