@@ -84,6 +84,7 @@ export function Skills() {
               <li>GitHub</li>
               <li>Amazon AWS</li>
               <li>Microsoft Azure</li>
+              <li>Auth0</li>
               <li>Vercel</li>
               <li>Netlify</li>
               <li>Firebase</li>

@@ -17,7 +17,7 @@ export function Who() {
             <p>Frontend development has always held a special place in my heart. It allows me to bring creative visions to life and create user experiences that leave a lasting impact. Working with technologies like React, I enjoy crafting beautiful and intuitive interfaces that captivate users.</p>
           </About>
           <About highlighted title="Backend" icon={imgBackend} className={style.about}>
-            <p>While frontend development excites me, I have a strong inclination towards backend development, as it allows me to delve into the core functionality of an application, shaping its logic and powering its capabilities. With expertise in technologies like Node.js and PostgreSQL, I specialize in developing performant and secure backend solutions that meet modern application needs.</p>
+            <p>While frontend development excites me, I have a strong inclination towards backend development, as it allows me to delve into the core functionality of an application, shaping its logic and powering its capabilities. With expertise in technologies like Node.js and PostgreSQL, I specialise in developing performant and secure backend solutions that meet modern application needs.</p>
           </About>
         </div>
         <div className={style.right}>
