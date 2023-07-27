@@ -40,6 +40,9 @@ export function Skills() {
               <li>Vue.js</li>
               <li>Postgraphile</li>
               <li>Apollo GraphQL</li>
+              <li>Prisma</li>
+              <li>TypeORM</li>
+              <li>Bookshelf</li>
               <li>Redux</li>
               <li className="muted">+ More</li>
             </ul>
