@@ -31,8 +31,8 @@ export default function Page() {
         <Profile title="Date of Birth">
           18th November 1981
         </Profile>
-        <Profile title="Looking">
-          Yes, open to opportunities
+        <Profile title="Open to work">
+          Passively looking
         </Profile>
         <a href="/download" className={style.button}>
           Download CV
