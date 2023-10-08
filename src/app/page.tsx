@@ -32,7 +32,7 @@ export default function Page() {
           18th November 1981
         </Profile>
         <Profile title="Open to work">
-          Passively looking
+          Yes
         </Profile>
         <a href="/download" className={style.button}>
           Download CV
