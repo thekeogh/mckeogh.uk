@@ -8,12 +8,12 @@ import { config } from "@core";
  * @remarks
  * These variables are used in multiple places in the metadata to avoid repetition.
  */
-const title = "Steve McKeogh | Full Stack Software Engineer | TypeScript, Node.js, React, GraphQL, PostgreSQL | London, UK";
+const title = "Steve McKeogh | Full Stack Staff Software Engineer | TypeScript, Node.js, React, GraphQL, PostgreSQL | London, UK";
 const colors = {
   primary: "#66bb6a",
 };
 export const descriptions = {
-  short: "Passionate and experienced Full Stack Software Engineer based in London. Specialising in TypeScript, Node.js, React, GraphQL, and PostgreSQL.",
+  short: "Passionate and experienced Full Stack Staff Software Engineer based in London. Specialising in TypeScript, Node.js, React, GraphQL, and PostgreSQL.",
   long: "Seasoned Full Stack Staff Software Engineer with over two decades of expertise. Specialising in TypeScript, Node.js, React, GraphQL, and PostgreSQL, with a well-rounded skill set for innovative software solutions.",
 };
 
@@ -26,7 +26,7 @@ export const descriptions = {
 export const metadata: Metadata = {
   title,
   description: descriptions.short,
-  keywords: ["full stack software engineer", "TypeScript", "Node.js", "React", "GraphQL", "PostgreSQL"],
+  keywords: ["Full stack software engineer", "Staff software engineer", "TypeScript", "Node.js", "React", "GraphQL", "PostgreSQL"],
   authors: { name: "Steve McKeogh" },
   viewport: {
     width: "device-width",
