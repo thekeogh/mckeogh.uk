@@ -1,4 +1,4 @@
-import { Rubik, Nunito } from "next/font/google";
+import { Nunito, Rubik } from "next/font/google";
 
 /**
  * Rubik.
@@ -29,6 +29,6 @@ const body = Nunito({
   subsets: ["latin"],
   variable: "--font-body",
   display: "swap",
-})
+});
 
 export const fonts = { rubik, body };
