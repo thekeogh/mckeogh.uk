@@ -65,6 +65,7 @@ export function Skills() {
             <h3 className="stop">Databases</h3>
             <ul>
               <li>PostgreSQL</li>
+              <li>DynamoDB</li>
               <li>MySQL</li>
               <li>MariaDB</li>
               <li>Oracle</li>
