@@ -13,7 +13,7 @@ interface Props {
 
 export default function Layout({ children }: Props) {
   return (
-    <html lang="en-GB" className={`${fonts.rubik.variable} ${fonts.body.variable}`}>
+    <html lang="en-GB" className={`${fonts.rubik.variable} ${fonts.futura.variable}`}>
       <body>
         {children}
         <Analytics />

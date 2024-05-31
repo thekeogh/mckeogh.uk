@@ -1,4 +1,5 @@
-import { Nunito, Rubik } from "next/font/google";
+import { Rubik } from "next/font/google";
+import localFont from "next/font/local";
 
 /**
  * Rubik.
@@ -15,20 +16,30 @@ const rubik = Rubik({
   display: "swap",
 });
 
+
 /**
- * Montserrat.
+ * Futura PT Web.
  * 
- * @label Google Font
+ * @label Local Font
  * 
  * @remarks
  * This font is utilised for all text displayed on the site, excluding titles.
  */
-const body = Nunito({
-  weight: ["300", "400", "700"],
-  style: ["italic", "normal"],
-  subsets: ["latin"],
-  variable: "--font-body",
-  display: "swap",
+const futura = localFont({
+  src: [{
+    path: "../fonts/FuturaPT/400.woff2",
+    weight: "400",
+    style: "normal",
+  }, {
+    path: "../fonts/FuturaPT/400-italic.woff2",
+    weight: "400",
+    style: "italic",
+  }, {
+    path: "../fonts/FuturaPT/700.woff2",
+    weight: "700",
+    style: "normal",
+  }],
+  variable: "--font-futura",
 });
 
-export const fonts = { rubik, body };
+export const fonts = { rubik, futura };

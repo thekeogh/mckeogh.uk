@@ -2,7 +2,7 @@
  * Global variables.
  * 
  * @remarks
- * The `--font-rubik` variables are sourced directly from next.js.
+ * The `--font-futura` and `--font-rubik` variables are sourced directly from next.js.
  * 
  * @see {@link ../core/fonts.ts App Fonts}
  */
@@ -19,7 +19,7 @@
   --color-muted: var(--color-blue-20);
 
   /* Fonts */
-  --font-family-default: var(--font-body);
+  --font-family-default: var(--font-futura);
   --font-family-alternate: var(--font-rubik);
   --font-size-default: 18px;
   --font-size-huge: 38px;
